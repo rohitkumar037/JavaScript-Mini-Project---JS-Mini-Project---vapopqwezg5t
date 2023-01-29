@@ -13,6 +13,7 @@ function seterror(id, error){
     //sets error inside tag of id 
     element = document.getElementById(id);
     element.getElementsByClassName('formerror')[0].innerHTML = error;
+//     ('formerror')[0] :- [0] indicates to the 0th index of the formerror classes.
 
 }
 
